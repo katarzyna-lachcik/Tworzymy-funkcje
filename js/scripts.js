@@ -6,12 +6,12 @@ function getTriangleArea(a, h) {
 	else {
 		return 'a*h/2';
 	}
-}
+};
 console.log( getTriangleArea(10, 6) );
 
-var triangle1Area = getTriangleArea(10, 15),
-	triangle2Area = getTriangleArea(13, 8),
-	triangle3Area = getTriangleArea(1, -1);
+var triangle1Area = getTriangleArea(10, 15);
+var	triangle2Area = getTriangleArea(13, 8);
+var	triangle3Area = getTriangleArea(1, -1);
 
 console.log(triangle1Area);
 console.log(triangle2Area);
